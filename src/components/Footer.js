@@ -1,8 +1,11 @@
 import React from 'react'
+import "../CSS/Footer.css"
 import logo from "../Assests/Asset 18@4x.png"
 export default function Footer() {
   return (
-    <footer>
+    <div>
+
+    <footer className='container'>
       <img src={logo}/>
       <div>
         <ul>
@@ -17,16 +20,16 @@ export default function Footer() {
       </div>
       <div>
         <ul>
-            <li>Contact Us</li>
+            <li className='spical'>Contact Us</li>
             <li>Address</li>
             <li>Phone number</li>
             <li>email</li>
-            
+
         </ul>
       </div>
       <div>
         <ul>
-            <li>Social media links</li>
+            <li className='spical'>Social media links</li>
             <li>Address</li>
             <li>Phone number</li>
             <li>email</li>
@@ -34,5 +37,6 @@ export default function Footer() {
         </ul>
       </div>
     </footer>
+    </div>
   )
 }
